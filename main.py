@@ -53,7 +53,7 @@ if 'requests' not in st.session_state:
 
 # Function to check if the API key is valid
 def is_valid_api_key(openai_api_key):
-    return openai_api_key and openai_api_key.startswith('sk-') and len(openai_api_key) == 51
+    return openai_api_key and openai_api_key.startswith('sk-') and len(openai_api_key) == 56
 
 
 openai_api_key =  st.secrets["OPENAI_API_KEY"]
